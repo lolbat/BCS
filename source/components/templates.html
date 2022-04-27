@@ -1,0 +1,48 @@
+<template id="shipEntryTemplate">
+    <div class='shipDisplay'>
+        <div class='addButton appButton' data-points='{{points}}' data-id='{{id}}'>+</div>
+        <div class='shipClass'>{{class}} ({{points}} pts)</div>
+    </div>
+</template>
+
+<template id="shipFleetDisplay">
+    <div class="shipFleetListElement">
+        <div class="shipButtonArea">
+            <div class="shipClass">{{class}}</div>
+            <div class="shipButtons">
+                <div class="duplicateShipButton appButton" data-id="{{id}}" data-bs-toggle="tooltip" data-bs-placement="top" title="Duplicate Ship">+</div>
+                <div class="removeShipButton appButton" data-id="{{id}}" data-bs-toggle="tooltip" data-bs-placement="top" title="Remove Ship">-</div>
+            </div>
+        </div>
+        <div class="shipStatDisplay" data-id="{{id}}">
+            <div class="shipDesignation">{{designation}}</div>
+            <div class="shipDisplayName">{{name}}</div>
+            <div class="shipPoints">({{points}} pts)</div>
+        </div>
+    </div>
+</template>
+
+<template id="printTemplate">
+    <html>
+    
+        <head>
+        
+            <meta charset="utf-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1">
+            <meta name="description" content="ACTASF Fleet List">
+            <meta name="author" content="Zac Belado">
+            
+            <title>ACTASF Fleet List</title>
+            
+            <!-- CSS includes -->
+            <!-- Bootstrap includes -->
+            <link href="css/bootstrap.min.css" rel="stylesheet">
+            
+            <!-- Custom styles  -->
+            <link href="css/fleetBuilder.css" rel="stylesheet">
+            
+        </head>
+        
+        <body>
+                
+</template>

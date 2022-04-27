@@ -1,0 +1,62 @@
+$darkgrey: rgb(130, 124, 124)
+$navBgGrey: rgb(240, 238, 238)
+$toolbarHeight: 40px
+
+/* structural elements */
+main 
+    min-height: 100vh
+    min-width: 100vh
+    margin: 0
+    padding: 0
+
+nav 
+    border-bottom: solid 1px $darkgrey
+    
+    .container-fluid
+        padding-left: 0 !important
+    
+/* toolbar and nav styles */
+
+.siteTitle
+    font-weight: 600
+    font-size: 1.2em
+    
+.siteNavItems
+    border-left: solid $darkgrey 1px
+    margin-left: 10px
+    
+.mainToolbar
+    width: 100%
+    min-height: $toolbarHeight
+    max-height: $toolbarHeight
+    padding: 4px
+    background-color: $navBgGrey
+    border-bottom: solid 1px $darkgrey
+    border-left: solid 2px $darkgrey
+    
+    h4
+        margin-left: 1em
+
+.toolbarIcon 
+    color: darkgray
+    font-size: 1.4em
+    margin-right: 1em
+    max-width: 40px
+
+    &:first-child 
+        margin-left: 1em
+    
+    &:hover 
+        color: black
+        cursor: pointer
+
+#hqColumn
+    min-height: 100vh
+    padding: 5px
+    margin-left: 20px
+
+#unitColumn
+   min-height: 100vh
+   background: white
+   padding: 5px
+   margin-left: 20px

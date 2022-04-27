@@ -1,0 +1,39 @@
+{
+    "games":[
+        [
+           {
+               "name":"Brazen Chariots", 
+               "scenarios":[
+                   {
+                       "name":"Easter Battle",
+                       "length":5,
+                       "start":"11 Apr 41",
+                       "end":"15 Apr 41",
+                       "firstPlayer":"Axis",
+                       "description":"Rommel’s first attempt to take Tobruk by direct assault up the El Adem Road. Forces were limited and Rommel thought he could get through the defenses before the Australians established themselves. He proved wrong, for the first time in the campaign.",
+                       "axis":[
+                            {
+                                "hq": "Brescia Italian Inf Div", 
+                                "stats": {
+                                    "fatigue": 2,
+                                    "hex": "A7.02",
+                                    "locked": true
+                                },
+                                "units": [
+                                    {"hex":"A4.04", "unit":"I/19 Italian Inf Bn"},
+                                    {"hex":"A6.04", "unit":"III/19 Italian Inf Bn"},
+                                    {"hex":"A9.04", "unit":"I/20 Italian Inf Bn"},
+                                    {"hex":"A11.04", "unit":"II/20 Italian Inf Bn"},
+                                    {"hex":"A7.01", "unit":"Brescia Div Italian Combat Trains"}
+                                ]
+                            } 
+                       ],
+                       "allies":[
+                           
+                       ]
+                   }
+               ]
+           }
+        ]
+    ]
+}
